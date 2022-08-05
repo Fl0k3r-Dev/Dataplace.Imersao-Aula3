@@ -97,10 +97,12 @@ namespace Dataplace.Imersao.Presentation.Views
             }
 
             e.Parameter.Items.Add("itensSelecionados", itensSelecionados);
+           
         }
 
         private async void FecharOrcamentoView_Process(object sender, ProcessEventArgs e)
         {
+            gridOrcamento.Visible = true;
 
             if (!(e.Parameter.Items.get_Item("itensSelecionados").Value is IEnumerable<OrcamentoViewModel> itensSelecionados))
             {
