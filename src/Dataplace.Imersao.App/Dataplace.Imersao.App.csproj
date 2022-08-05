@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Dataplace.Imersao.App.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dataplace.Core.Lib">
       <HintPath>U:\Pack 2022.R3-S4\Install\Dataplace.Core.Lib.dll</HintPath>
