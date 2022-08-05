@@ -145,7 +145,8 @@ namespace Dataplace.Imersao.Presentation.Views
 
         private void FecharOrcamentoView_AfterProcess(object sender, AfterProcessEventArgs e)
         {
-
+            gridOrcamento.Visible = false;
+            gridOrcamento.ClearFields();
         }
         #endregion
 
